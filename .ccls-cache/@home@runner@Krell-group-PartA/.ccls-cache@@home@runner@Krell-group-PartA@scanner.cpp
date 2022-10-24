@@ -55,7 +55,7 @@ bool period (string s)
 enum tokentype {ERROR, WORD1, WORD2, PERIOD, EOFM};
 
 // ** For the display names of tokens - must be in the same order as the tokentype.
-string tokenName[30] = {"ERROR", "WORD1", "WORD2", "PERIOD", "EOFM"}; 
+string tokenName[30] = { }; 
 
 // ** Need the reservedwords table to be set up here. 
 // ** Do not require any file input for this. Hard code the table.
